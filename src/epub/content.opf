@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/dorothy-m-richardson/oberland</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-10-01T21:12:31Z</dc:date>
+		<meta property="dcterms:modified">2026-10-01T21:12:31Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -43,17 +43,17 @@
 		<meta id="collection-1" property="belongs-to-collection">Pilgrimage</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<meta property="group-position" refines="#collection-1">9</meta>
-		<meta property="schema:abstract">An independent young woman from London is gifted a two week trip to a resort in the Bernese Oberland region of Switzerland.</meta>
+		<meta property="schema:abstract">An independent young woman from London is gifted a two week trip to a resort in Switzerland.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;Oberland&lt;/i&gt; is the ninth “chapter volume” of &lt;a href="https://standardebooks.org/ebooks/dorothy-m-richardson"&gt;Dorothy M. Richardson’s&lt;/a&gt; pioneering semi-autobiographical series, &lt;a href="https://standardebooks.org/collections/pilgrimage"&gt;Pilgrimage&lt;/a&gt;.&lt;/p&gt;
-			&lt;p&gt;Series protagonist Miriam Henderson spends two weeks at the Hotel Alpenstock, mainly in the company of other English guests. In the evenings she watches how the relationships of such temporary groups emerge. During the day she explores the crisp beauty of the Alpine landscape and flings herself into winter sport. The daily sunrise on the Alps is a character in its own right.&lt;/p&gt;
+			&lt;p&gt;Series protagonist Miriam Henderson spends two weeks at the Hotel Alpenstock, a resort in the the Bernese Oberland region of Switzerland, mainly in the company of other English guests. In the evenings she watches how the relationships of these temporary groups emerge. During the day she explores the crisp beauty of the Alpine landscape and flings herself into winter sport, with the daily sunrise on the Alps becoming a character in its own right.&lt;/p&gt;
 			&lt;p&gt;The book was inspired by a 1904 trip Richardson made to Adelboden, Switzerland, as a treat from her employer, Dr. J. H. Badcock.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/77646</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/006498818</dc:source>
-		<meta property="schema:wordCount">WORD_COUNT</meta>
-		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<meta property="schema:wordCount">40658</meta>
+		<meta property="schema:educationalLevel">66.57</meta>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/dorothy-m-richardson_oberland" refines="#vcs-repository" rel="schema:codeRepository"/>
@@ -84,6 +84,11 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">David Reimer</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Reimer, David</meta>
+		<link href="https://github.com/dajare" refines="#producer-2" rel="schema:url"/>
+		<link href="https://id.loc.gov/authorities/names/n92075987.html" refines="#producer-2" rel="schema:sameAs"/>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
