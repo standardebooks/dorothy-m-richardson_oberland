@@ -66,7 +66,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="artist">C. Fleming Williams</dc:contributor>
 		<meta property="file-as" refines="#artist">Fleming Williams, C.</meta>
-		<meta property="schema:alternateName" refines="#author">Clifford Roger Fleming-Williams</meta>
+		<meta property="schema:alternateName" refines="#artist">Clifford Roger Fleming-Williams</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Jens Sadowski</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Sadowski, Jens</meta>
